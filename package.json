@@ -1,10 +1,23 @@
 {
   "name": "lolli-snackbar",
-  "main": "dist/snackbar",
+  "description": "A Material Design snackbar",
   "version": "0.1.0",
+  "author": "Orbin",
+  "keywords": [
+    "lolli",
+    "material design",
+    "snackbar",
+    "toast"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbin-ch/lolli-snackbar"
+  },
+  "main": "dist/lolli-snackbar.js",
   "dependencies": {
     "jquery": "^2.2.0"
   },
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.4.0",
     "babel-loader": "^6.2.1",

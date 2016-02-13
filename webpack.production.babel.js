@@ -11,7 +11,7 @@ export default {
   ],
   output: {
     path: "./dist",
-    filename: "snackbar.js",
+    filename: "lolli-snackbar.js",
     libraryTarget: "umd"
   },
   module: {
@@ -41,7 +41,7 @@ export default {
   },
   plugins: [
     new CleanWebpackPlugin(["dist"]),
-    new ExtractTextPlugin("./snackbar.css")
+    new ExtractTextPlugin("./lolli-snackbar.css")
   ],
   postcss: () => {
     return {
