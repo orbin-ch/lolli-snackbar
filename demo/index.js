@@ -16,7 +16,7 @@ $("#show").on("click", () => {
       console.log("action2");
     },
     actionText: "Action 2",
-    timeout: 999999999
+    timeout: 7000
   });
 
   snackbar.show("Changes saved.", {
