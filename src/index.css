@@ -1,0 +1,45 @@
+.snackbar {
+  max-width: 568px;
+  min-width: 288px;
+  background-color: #323232;
+  background-color: var(--lolli-snackbar-background-color, #323232);
+  color: #fff;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 14px;
+  padding: 16px 24px;
+  transition: .5s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+.snackbar-closed {
+  transform: translateY(100%);
+}
+.snackbar-message {
+  flex: 1;
+}
+.snackbar-action {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 24px;
+  color: #EEFF41;
+  color: var(--lolli-snackbar-color, #EEFF41);
+}
+@media (max-width: 568px) {
+  .snackbar {
+    border-radius: 0;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
